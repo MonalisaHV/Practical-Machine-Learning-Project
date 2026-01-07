@@ -1,0 +1,23 @@
+---
+title: "Practical Machine Learning Project"
+author: "Monalisa H V"
+output: html_document
+---
+
+## Background
+The goal of this project is to predict the manner in which participants performed barbell lifts using accelerometer data.
+
+## Data
+The training dataset consists of accelerometer measurements from the belt, arm, forearm, and dumbbell. The testing dataset contains 20 observations.
+
+## Data Cleaning
+Columns with missing values were removed and identifier variables were excluded from the analysis.
+
+## Model
+A Random Forest classification model was trained to predict the outcome variable `classe`.
+
+## Results
+The Random Forest model achieved high accuracy and was used to generate predictions for the required test cases.
+
+## Conclusion
+Random Forest proved to be an effective method for this classification task.
